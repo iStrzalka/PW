@@ -1,0 +1,43 @@
+# Wyklad Algorytmy w inżynierii danch - Organizacyjne
+## Rozklad punktow:
+- Wyklad    30pkt
+- Projekt   70pkt
+
+## Zaliczenie przedmiotu : 
+- Minimalnie 15.5pkt    z wykladu
+- Minimalnie 36pkt      z projektu \
+Wyklad: egzamin - pytania obliczeniowe i otwarte
+
+
+# Projekt
+**Projekt - literalnie ML**:
+- Czesc bedzie miała 6-10tygodniach **11-15**
+- 6-10  siec konwuloncyjna (troszeczke prostszy (bo wczesniej jest))
+- 11-15 siec rekurencyjna
+- **Temat** : Algorytm do szybkiego automatycznego rozniczkowania w Julii
+- Projekt polega na zaimplementowaniu calego algorytmu a nie po prostu nauczenie MLa.
+- **Jezyk: Julia**
+- Nacisk na **szybkosc**
+- tensorflow, pytorch, flagsjl
+- Poczatkowa implementacja solo, **ale potem mozna w parach.**
+- Wszystko po poczatkowej implementacji mozna scalic z inna osoba (rowniez artykul naukowy)
+- Programoawnie wstecz??? 
+- Kamien milowy (raczej do zmiany):
+- Kod poczatkowy + Artykul 45% + Optymalizacja 55%
+
+## Potencjalne oceny
+- 3/3.5 basic projekt
+- 4+ za opytymalizacje
+
+## Obrona projektu
+W czerwcu (prawdpopodobnie niestety w sesji)
+
+## Artykul naukowy  
+- 3 **LUB** 5 stron nt. rzeczy powyzej
+- Termin pierwszy - Wstep literatury : 7 tydzien
+- Czesc literatury zostanie dostarczona przez prowadzacych.
+- Jezyk : angielski
+
+## Laby:
+- Basic rozpoznawanie cyferek na MNISTcie
+- xyz

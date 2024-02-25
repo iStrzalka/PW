@@ -1,0 +1,22 @@
+# Wyklad
+## Organizacyjne
+2 czesci (rozne!):
+- Jezyki formalne (analiza lexykalna, skladniowa itd)
+- Kompilatory (generowanie kodu bytecode czy inne pochodne)
+
+Wykorzystywane elementy : AUTLR + LLVM
+
+## Zasady zaliczenia ISOD
+- Wyklady i egzamin na koncu  (60%) 30h wykladow  : Zadania (podobne do tych co na wykladzie)
+- Czesc praktyczna : Projekty (40%) 10h labow     : Wymagane do zaliczenia przedmiotu
+
+## Kompilator - co robi kompilator jak tłumaczy rzeczy na kod maszynowy
+- Plik .c
+- Preprocess (define, usuwanie komentarzy, dyrektywy)  -- strumien znakow    --> 
+- Analiza leksykalna                                   -- strumien slow      -->
+- Analiza skladniowa                                   -- drzewo skladniowe  -->
+- Analiza semantyczna (kontrola typow, nazwy, zasiegi) -- drzewo skladniowe' -->
+- Generowanie kodu posredniego 
+- Optymalizator (np. x=3, x=5 x=3 do kasacji)
+- Scalanie (dodanie bibliotek)
+- Kod maszynowy
