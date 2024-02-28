@@ -1,0 +1,55 @@
+Przykład ze strony 66 Aho-Sethi-Ullman, wyd.1
+Bartosz Sawicki, 2014-03-14
+
+=====
+Gramatyka prostych wyrażeń matematycznych
+(Rys. 2.35)
+
+start -> lista KONIEC
+
+lista -> wyr ';' lista
+lista -> eps
+
+wyr -> wyr '+' skl 
+wyr -> wyr '-' skl 
+wyr -> skl 
+
+skl -> skl '*' czyn 
+skl -> skl '/' czyn 
+skl -> skl 'DIV' czyn 
+skl -> skl 'MOD' czyn 
+skl -> czyn
+
+czyn -> '(' wyr ')' 
+czyn -> LICZBA
+czyn -> ID
+
+
+=====
+Gramatyka po eliminacji rekurencji lewostronnej 
+(Rys. 2.38)
+
+start -> lista KONIEC
+
+lista -> wyr ';' lista
+lista -> eps
+
+wyr -> skl resztaskl
+
+resztaskl -> '+' skl resztaskl
+resztaskl -> '-' skl resztaskl          
+resztaskl -> eps
+
+skl -> czyn resztaczyn
+
+resztaczyn -> '*' czyn resztaczyn              
+resztaczyn -> '/' czyn resztaczyn             
+resztaczyn -> DIV czyn resztaczyn             
+resztaczyn -> MOD czyn resztaczyn             
+
+skl_kont -> eps
+
+czyn -> '(' wyr ')' 
+czyn -> LICZBA
+czyn -> ID
+
